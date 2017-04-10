@@ -3,6 +3,18 @@ body{
     margin-top: 2rem;
 }
 
+.custom-light-blue{
+    color:#1e88e5;
+}
+
+.flex-grow-2{
+    flex-grow: 2;
+}
+
+.font-size-small{
+    font-size: small;
+}
+
 .navbar-nav .nav-link {
     padding-left: 0.5rem !important;
 }
