@@ -32,16 +32,19 @@
                 </a>
                 <div class="collapse navbar-collapse" id="navbarNav1">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
+                        <li class="nav-item active ml-2 mr-2">
                             <a class="nav-link">About<span class="sr-only">(current)</span></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-2 mr-2">
+                            <a class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item ml-2 mr-2">
                             <a class="nav-link">Education</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-2 mr-2">
                             <a class="nav-link">Technical Skills</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ml-2 mr-2">
                             <a class="nav-link">Contact</a>
                         </li>
                     </ul>
@@ -50,9 +53,9 @@
         </nav>
     </header>
 
-    <article id="about">
+    <article>
         <!--Card-->
-        <div class="card">
+        <div id="about" class="card">
 
             <!--Card image-->
 
@@ -61,7 +64,7 @@
             <!--Card content-->
             <div class="card-block" style="border: 0px solid black;">
                 <!--Title-->
-                <div class="d-flex flex-column justify-content-around">
+                <div class="d-flex flex-column justify-content-around" style="border: 0px solid chartreuse;">
                     <div class="d-flex flex-row justify-content-center align-items-center flex-wrap" style="border:0px solid blue;">
                         <div class="pt-4 pb-4 pl-4">
                             <img id="img-profile-pic" class="img-fluid p-0 m-0" src="./img/custom/profile-pic.jpg" alt="">                        
@@ -81,14 +84,51 @@
                             <div class="d-flex flex-row flex-wrap"> 
                                 <div class="d-flex flex-column p-2 m-auto flex-grow-2">
                                     <div>
-                                        <span class="ml-5 font-size-small"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; hvsharma@outlook.com</span>     
+                                        <span class="ml-5 font-size-small"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; hvsharma@live.in</span>     
                                     </div>
                                     <div>
-                                        <span class="ml-5 mb-auto font-size-small"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp; +91 - 9039256020</span>
+                                        <span class="ml-5 mb-auto font-size-small"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp; +91 - 903925XXXX</span>
                                     </div>
                                 </div>                                
                             </div>
                         </div>                    
+                    </div>
+                    <div id="social-links" class="d-flex flex-row justify-content-center align-items-center flex-wrap" style="border:0px solid deeppink;">
+                        <div>
+                            <button id="btn-fb" type="button" class="btn light-blue darken-4 nowrap">
+                                <span class="font-size-medium text-no-transform">
+                                    <i class="fa fa-facebook pull-2"></i>&nbsp;&nbsp;facebook
+                                </span>
+                            </button>
+                        </div>
+                        <div>
+                            <button id="btn-gh" type="button" class="btn special-color nowrap">
+                                <span class="font-size-medium text-no-transform">
+                                    <i class="fa fa-github pull-2"></i>&nbsp;&nbsp;GitHub
+                                </span>
+                            </button>
+                        </div>
+                        <div>
+                            <button id="btn-lin" type="button" class="btn custom-color-linkedin nowrap">
+                                <span class="font-size-medium text-no-transform">
+                                    <i class="fa fa-linkedin pull-2"></i>&nbsp;&nbsp;LinkedIn
+                                </span>
+                            </button>
+                        </div>
+                        <div>
+                            <button id="btn-ig" type="button" class="btn brown nowrap">
+                                <span class="font-size-medium text-no-transform">
+                                    <i class="fa fa-instagram pull-2"></i>&nbsp;&nbsp;Instagram
+                                </span>
+                            </button>
+                        </div>
+                        <div>
+                            <button id="btn-twt" type="button" class="btn custom-color-twitter nowrap">
+                                <span class="font-size-medium text-no-transform">
+                                    <i class="fa fa-twitter pull-2"></i>&nbsp;&nbsp;Twitter
+                                </span>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -112,6 +152,8 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="js/custom.js"></script>
 </body>
 
 </html>
