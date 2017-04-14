@@ -39,11 +39,6 @@ body{
     padding-left: 0.5rem !important;
 }
 
-
-@media only screen and (max-width: 768px) {
-
-}
-
 #about{
     height: 1vh;
 }
@@ -66,4 +61,49 @@ body{
     border-radius: .3rem;
     min-width:11rem;
     min-height: 2.8rem;
+}
+
+@media only screen and (max-width: 759px) {
+    #horizontal-line{
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    
+    #img-profile-container{
+        padding-left: 0 !important;
+        padding-bottom: 3rem !important; 
+    }
+
+    #horizontal-line{
+        margin: 0 !important;
+    }
+
+    #text-name-header-container{
+        padding-right: 0 !important;
+    }
+
+    #text-name-header, #text-details-container{
+        flex-direction: column !important;
+        align-content: center !important;
+        justify-content: center !important;       
+    }
+
+    #text-name-header>div>h3{
+       margin:0 !important;   
+    }
+
+    #text-details-container span{
+        margin:0 !important;
+    } 
+}
+
+@media only screen and (max-width: 421px) {
+
+    #social-links div button{
+        border-radius: .3rem;
+        min-width: 15rem;
+        min-height: 2.8rem;
+    }       
 }
