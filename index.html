@@ -39,7 +39,7 @@
                             <a class="nav-link" href="http://blog.hvsharma.in" target="_blank">Blog</a>
                         </li>
                         <li class="nav-item ml-2 mr-2">
-                            <a class="nav-link">Technical Skills</a>
+                            <a class="nav-link" href="#technical-skills">Technical Skills</a>
                         </li>
                         <li class="nav-item ml-2 mr-2">
                             <a class="nav-link">Contact</a>
@@ -50,87 +50,101 @@
         </nav>
     </header>
 
-    <article>
-        <!-- Card - About Banner -->
-        <div id="about" class="card">
+    
+    <div class="container">
+        <!-- About Banner -->
+        <section id="about" style="border: 0px solid black;">
             <!--Card content-->
-            <div class="card-block" style="border: 0px solid black;">
-                <!--Title-->
-                <div class="d-flex flex-column justify-content-around" style="border: 0px solid chartreuse;">
-                    <div class="d-flex flex-row justify-content-center align-items-center flex-wrap" style="border:0px solid blue;">
-                        <div id="img-profile-container" class="pt-4 pb-4 pl-4">
-                            <div>
-                                <img id="img-profile-pic" class="img-fluid p-0 m-0" src="./img/custom/profile-pic.jpg" alt="">     
-                            </div>                   
-                        </div>
-                        <div id="text-name-header-container" class="d-flex flex-column flex-grow-2 pr-4">
-                            <div id="text-name-header" class="d-flex flex-row flex-wrap mt-1"> 
-                                <div class="p-2 m-auto flex-grow-2">
-                                    <h3 class="mb-auto ml-5 custom-light-blue">Harsh Vardhan Sharma</h3>
-                                </div>
-                                <div class="p-2 m-auto">
-                                    <span class="m-auto text-muted">Software Engineer</span>
-                                </div>
-                            </div>
-                            <div id="horizontal-line"> 
-                                <hr class="hr-dark mb-1 mt-1"/>
-                            </div>
-                            <div id="text-details-container" class="d-flex flex-row flex-wrap"> 
-                                <div class="d-flex flex-column p-2 m-auto flex-grow-2">
-                                    <div>
-                                        <span class="ml-5 font-size-small"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; hvsharma@live.in</span>     
-                                    </div>
-                                    <div>
-                                        <span class="ml-5 mb-auto font-size-small"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp; +91 - 903925XXXX</span>
-                                    </div>
-                                </div>                                
-                            </div>
-                        </div>                    
+            <!--Title-->
+            <div class="d-flex flex-column justify-content-around" style="border: 0px solid chartreuse;">
+                <div class="d-flex flex-row justify-content-center align-items-center flex-wrap" style="border:0px solid blue;">
+                    <div id="img-profile-container" class="pt-4 pb-4 pl-4">
+                        <div>
+                            <img id="img-profile-pic" class="img-fluid p-0 m-0" src="./img/custom/profile-pic.jpg" alt="">     
+                        </div>                   
                     </div>
-                    <div id="social-links" class="d-flex flex-row justify-content-center align-items-center flex-wrap" style="border:0px solid deeppink;">
-                        <div>
-                            <button id="btn-fb" type="button" class="btn light-blue darken-4 nowrap">
-                                <span class="font-size-medium text-no-transform">
-                                    <i class="fa fa-facebook pull-2"></i>&nbsp;&nbsp;facebook
-                                </span>
-                            </button>
+                    <div id="text-name-header-container" class="d-flex flex-column flex-grow-2 pr-4">
+                        <div id="text-name-header" class="d-flex flex-row flex-wrap mt-1"> 
+                            <div class="p-2 m-auto flex-grow-2">
+                                <h3 class="mb-auto ml-5 custom-light-blue">Harsh Vardhan Sharma</h3>
+                            </div>
+                            <div class="p-2 m-auto">
+                                <span class="m-auto text-muted">Software Engineer</span>
+                            </div>
                         </div>
-                        <div>
-                            <button id="btn-gh" type="button" class="btn special-color nowrap">
-                                <span class="font-size-medium text-no-transform">
-                                    <i class="fa fa-github pull-2"></i>&nbsp;&nbsp;GitHub
-                                </span>
-                            </button>
+                        <div id="horizontal-line"> 
+                            <hr class="hr-dark mb-1 mt-1"/>
                         </div>
-                        <div>
-                            <button id="btn-lin" type="button" class="btn custom-color-linkedin nowrap">
-                                <span class="font-size-medium text-no-transform">
-                                    <i class="fa fa-linkedin pull-2"></i>&nbsp;&nbsp;LinkedIn
-                                </span>
-                            </button>
+                        <div id="text-details-container" class="d-flex flex-row flex-wrap"> 
+                            <div class="d-flex flex-column p-2 m-auto flex-grow-2">
+                                <div>
+                                    <span class="ml-5 font-size-small"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp; hvsharma@live.in</span>     
+                                </div>
+                                <div>
+                                    <span class="ml-5 mb-auto font-size-small"><i class="fa fa-mobile fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp; +91 - XXXXXXXXX</span>
+                                </div>
+                            </div>                                
                         </div>
-                        <div>
-                            <button id="btn-ig" type="button" class="btn brown nowrap">
-                                <span class="font-size-medium text-no-transform">
-                                    <i class="fa fa-instagram pull-2"></i>&nbsp;&nbsp;Instagram
-                                </span>
-                            </button>
-                        </div>
-                        <div>
-                            <button id="btn-twt" type="button" class="btn custom-color-twitter nowrap">
-                                <span class="font-size-medium text-no-transform">
-                                    <i class="fa fa-twitter pull-2"></i>&nbsp;&nbsp;Twitter
-                                </span>
-                            </button>
-                        </div>
+                    </div>                    
+                </div>
+                <div id="social-links" class="d-flex flex-row justify-content-center align-items-center flex-wrap" style="border:0px solid deeppink;">
+                    <div>
+                        <button id="btn-fb" type="button" class="btn light-blue darken-4 nowrap">
+                            <span class="font-size-medium text-no-transform">
+                                <i class="fa fa-facebook pull-2"></i>&nbsp;&nbsp;facebook
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="btn-gh" type="button" class="btn special-color nowrap">
+                            <span class="font-size-medium text-no-transform">
+                                <i class="fa fa-github pull-2"></i>&nbsp;&nbsp;GitHub
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="btn-lin" type="button" class="btn custom-color-linkedin nowrap">
+                            <span class="font-size-medium text-no-transform">
+                                <i class="fa fa-linkedin pull-2"></i>&nbsp;&nbsp;LinkedIn
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="btn-ig" type="button" class="btn brown nowrap">
+                            <span class="font-size-medium text-no-transform">
+                                <i class="fa fa-instagram pull-2"></i>&nbsp;&nbsp;Instagram
+                            </span>
+                        </button>
+                    </div>
+                    <div>
+                        <button id="btn-twt" type="button" class="btn custom-color-twitter nowrap">
+                            <span class="font-size-medium text-no-transform">
+                                <i class="fa fa-twitter pull-2"></i>&nbsp;&nbsp;Twitter
+                            </span>
+                        </button>
                     </div>
                 </div>
-            </div>
-            <!--/.Card content-->
-        </div>
-        <!--/.Card-->
-    </article>
+            </section>
 
+            <section id="technical-skills">
+                <div class="divider-new">
+		            <h2 class="h3-responsive custom-light-blue">Technical Skills</h2>
+		        </div>    
+
+            </section>
+
+
+        </div>
+       
+    
+
+       
+        
+        
+    
+    </div>
+    
+   
     <footer>
 
     </footer>
